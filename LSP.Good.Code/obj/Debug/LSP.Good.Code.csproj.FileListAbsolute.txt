@@ -1,0 +1,5 @@
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Good.Code\bin\Debug\LSP.Good.Code.exe.config
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Good.Code\bin\Debug\LSP.Good.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Good.Code\bin\Debug\LSP.Good.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Good.Code\obj\Debug\LSP.Good.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Good.Code\obj\Debug\LSP.Good.Code.pdb

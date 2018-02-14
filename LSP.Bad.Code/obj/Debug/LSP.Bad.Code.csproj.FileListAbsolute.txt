@@ -1,0 +1,6 @@
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Bad.Code\bin\Debug\LSP.Bad.Code.exe.config
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Bad.Code\bin\Debug\LSP.Bad.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Bad.Code\bin\Debug\LSP.Bad.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Bad.Code\obj\Debug\LSP.Bad.Code.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Bad.Code\obj\Debug\LSP.Bad.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\LSP.Bad.Code\obj\Debug\LSP.Bad.Code.pdb
