@@ -1,0 +1,6 @@
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Bad.Code\bin\Debug\OPC.Bad.Code.exe.config
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Bad.Code\bin\Debug\OPC.Bad.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Bad.Code\bin\Debug\OPC.Bad.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Bad.Code\obj\Debug\OPC.Bad.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Bad.Code\obj\Debug\OPC.Bad.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Bad.Code\obj\Debug\OPC.Bad.Code.csprojResolveAssemblyReference.cache

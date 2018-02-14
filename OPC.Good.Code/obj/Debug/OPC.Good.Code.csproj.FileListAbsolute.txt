@@ -1,0 +1,5 @@
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Good.Code\bin\Debug\OPC.Good.Code.exe.config
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Good.Code\bin\Debug\OPC.Good.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Good.Code\bin\Debug\OPC.Good.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Good.Code\obj\Debug\OPC.Good.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\OPC.Good.Code\obj\Debug\OPC.Good.Code.pdb
