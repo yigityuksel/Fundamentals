@@ -6,21 +6,21 @@ Fundamentals of Software Engineering Principles with Examples
 
  1. Single Responsibility Principle
 
-> A class should have only one reason to change.
-> Do one thing and do it well.
+ - A class should have only **one reason** to change.
+ - *Separation of Concerns* - different classes handling different, independent tasks/problems.
  
  2. Open-Closed Principle
 
-> Open for extensions, closed for modifications.
- 
+- Classes should be open for **extensions**, closed for *modifications*.
+
  3. Liskov Substitution Principle
  
-> Derived classes are extending base classes should behave normal without changing their behavior.
+ - Base type (base class) should be able to **substitute** for a subtype.
  
  4. Interface Segregation Principle
  
-> The clients should not be forced to implement interfaces they do not use.
-
+ - Do not put too much into an interface, split into **separate** interfaces.
+ 
  5. Dependency Inversion Principle
 
-> High-level modules should not depends on low-level modules. Both should depends on abstractions.
+- High-level modules should not depends on low-level modules. Both should depends on **abstractions**.
