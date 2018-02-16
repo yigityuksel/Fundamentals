@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BuilderPattern.Code.Interfaces;
+using BuilderPattern.Code.Builder_Pattern.Interfaces;
+using BuilderPattern.Code.Models;
 
-namespace BuilderPattern.Code.Vehicles
+namespace BuilderPattern.Code.Builder_Pattern.Vehicles
 {
-    public class Car : IVehicleBuilder
+    public class Excavator : IVehicleBuilder
     {
-
         private readonly Vehicle _vehicle = new Vehicle();
 
         public void SetName()
         {
-            _vehicle.Name = "Car";
+            _vehicle.Name = "Excavator";
             Console.WriteLine($"{_vehicle.Name} has builded");
         }
 
@@ -26,7 +22,7 @@ namespace BuilderPattern.Code.Vehicles
 
         public void SetMaximumSpeed()
         {
-            _vehicle.MaximumSpeed = 200;
+            _vehicle.MaximumSpeed = 10;
             Console.WriteLine($"Maximum speed of {_vehicle.Name} is {_vehicle.MaximumSpeed} km/h");
         }
 
@@ -34,6 +30,5 @@ namespace BuilderPattern.Code.Vehicles
         {
             return _vehicle;
         }
-
     }
 }

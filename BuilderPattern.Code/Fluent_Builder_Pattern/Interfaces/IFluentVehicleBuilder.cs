@@ -1,6 +1,7 @@
 ﻿using System;
+using BuilderPattern.Code.Models;
 
-namespace BuilderPattern.Code.Interfaces
+namespace BuilderPattern.Code.Fluent_Builder_Pattern.Interfaces
 {
     public interface IFluentVehicleBuilder
     {

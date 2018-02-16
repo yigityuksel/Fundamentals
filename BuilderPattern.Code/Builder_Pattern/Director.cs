@@ -1,6 +1,6 @@
-﻿using BuilderPattern.Code.Interfaces;
+﻿using BuilderPattern.Code.Builder_Pattern.Interfaces;
 
-namespace BuilderPattern.Code
+namespace BuilderPattern.Code.Builder_Pattern
 {
     public class Director
     {

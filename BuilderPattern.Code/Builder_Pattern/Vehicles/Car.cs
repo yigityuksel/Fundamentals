@@ -1,15 +1,17 @@
 ﻿using System;
-using BuilderPattern.Code.Interfaces;
+using BuilderPattern.Code.Builder_Pattern.Interfaces;
+using BuilderPattern.Code.Models;
 
-namespace BuilderPattern.Code.Vehicles
+namespace BuilderPattern.Code.Builder_Pattern.Vehicles
 {
-    public class Excavator : IVehicleBuilder
+    public class Car : IVehicleBuilder
     {
+
         private readonly Vehicle _vehicle = new Vehicle();
 
         public void SetName()
         {
-            _vehicle.Name = "Excavator";
+            _vehicle.Name = "Car";
             Console.WriteLine($"{_vehicle.Name} has builded");
         }
 
@@ -21,7 +23,7 @@ namespace BuilderPattern.Code.Vehicles
 
         public void SetMaximumSpeed()
         {
-            _vehicle.MaximumSpeed = 10;
+            _vehicle.MaximumSpeed = 200;
             Console.WriteLine($"Maximum speed of {_vehicle.Name} is {_vehicle.MaximumSpeed} km/h");
         }
 
@@ -29,5 +31,6 @@ namespace BuilderPattern.Code.Vehicles
         {
             return _vehicle;
         }
+
     }
 }

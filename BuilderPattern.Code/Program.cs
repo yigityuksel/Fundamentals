@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BuilderPattern.Code.FluentVehicles;
-using BuilderPattern.Code.Vehicles;
+using BuilderPattern.Code.Models;
 
 namespace BuilderPattern.Code
 {
@@ -13,19 +12,35 @@ namespace BuilderPattern.Code
         static void Main(string[] args)
         {
 
-            var director = new Director();
+            #region Builder
 
-            director.CreateVehicle(new Car());
+            //var director = new Director();
 
-            director.CreateVehicle(new Excavator());
+            //director.CreateVehicle(new Car());
 
-            var _excavator = new FluentExcavator().SetMaximumSpeed(30).SetName("Fluent Excavator").SetSerialNumber(Guid.NewGuid()).BuildProduct();
+            //director.CreateVehicle(new Excavator());
 
+            #endregion
 
-            var _car = new FluentCar().SetMaximumSpeed(250).SetName("Fluent Car")
-                .SetSerialNumber(Guid.NewGuid()); //works without build call, check code.
+            #region FluentBuilder
 
+            //var _excavator = new FluentExcavator().SetMaximumSpeed(30).SetName("Fluent Excavator").SetSerialNumber(Guid.NewGuid()).BuildProduct();
 
+            //var _car = new FluentCar().SetMaximumSpeed(250).SetName("Fluent Car")
+            //    .SetSerialNumber(Guid.NewGuid()); //works without build call, check code.
+
+            #endregion
+
+            #region FluentBuilder with Recursive
+
+             //var builder = new PersonJobBuilder();
+             //builder.Called("yigit").WorksAsA => we couldn't call,
+
+            var person = Person.New.Called("yiğit").WorksAsA("engineer").Build();
+
+            Console.WriteLine(person);
+
+            #endregion
 
         }
     }

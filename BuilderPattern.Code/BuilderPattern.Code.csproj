@@ -43,20 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Director.cs" />
-    <Compile Include="FluentVehicles\FluentCar.cs" />
-    <Compile Include="FluentVehicles\FluentExcavator.cs" />
-    <Compile Include="Interfaces\IFluentVehicleBuilder.cs" />
-    <Compile Include="Interfaces\IVehicleBuilder.cs" />
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="Builder_Pattern\Director.cs" />
+    <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Bad\PersonInfoBuilder.cs" />
+    <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Bad\PersonJobBuilder.cs" />
+    <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Good\AbstartPersonBuilder.cs" />
+    <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Good\PersonInfoBuilder.cs" />
+    <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Good\PersonJobBuilder.cs" />
+    <Compile Include="Fluent_Builder_Pattern\FluentVehicles\FluentCar.cs" />
+    <Compile Include="Fluent_Builder_Pattern\FluentVehicles\FluentExcavator.cs" />
+    <Compile Include="Fluent_Builder_Pattern\Interfaces\IFluentVehicleBuilder.cs" />
+    <Compile Include="Builder_Pattern\Interfaces\IVehicleBuilder.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vehicles\Car.cs" />
-    <Compile Include="Vehicles\Excavator.cs" />
+    <Compile Include="Builder_Pattern\Vehicles\Car.cs" />
+    <Compile Include="Builder_Pattern\Vehicles\Excavator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

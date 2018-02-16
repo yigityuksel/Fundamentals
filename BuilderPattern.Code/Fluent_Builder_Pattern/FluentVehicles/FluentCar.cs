@@ -1,11 +1,11 @@
 ﻿using System;
-using BuilderPattern.Code.Interfaces;
+using BuilderPattern.Code.Fluent_Builder_Pattern.Interfaces;
+using BuilderPattern.Code.Models;
 
-namespace BuilderPattern.Code.FluentVehicles
+namespace BuilderPattern.Code.Fluent_Builder_Pattern.FluentVehicles
 {
-    public class FluentExcavator : IFluentVehicleBuilder
+    public class FluentCar : IFluentVehicleBuilder
     {
-
         private string _name;
         private Guid _serialNumber;
         private int _maximumSpeed;
@@ -27,15 +27,31 @@ namespace BuilderPattern.Code.FluentVehicles
             _serialNumber = serialNumber;
             return this;
         }
+
         public Vehicle BuildProduct()
         {
-            Console.WriteLine($"{_name} created");
-
             return new Vehicle()
             {
                 SerialNumber = _serialNumber.ToString(),
                 MaximumSpeed = _maximumSpeed,
                 Name = _name
+            };
+        }
+
+        /// <summary>
+        /// works without calling build function, creates the object.
+        /// </summary>
+        /// <param name="fluentCar"></param>
+        public static implicit operator Vehicle(FluentCar fluentCar)
+        {
+
+            Console.WriteLine($"{fluentCar._name} created without build called.");
+
+            return new Vehicle()
+            {
+                SerialNumber = fluentCar._serialNumber.ToString(),
+                MaximumSpeed = fluentCar._maximumSpeed,
+                Name = fluentCar._name
             };
         }
 
