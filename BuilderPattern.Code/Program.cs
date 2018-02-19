@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BuilderPattern.Code.Facaded_Builder_Pattern;
 using BuilderPattern.Code.Models;
 
 namespace BuilderPattern.Code
@@ -33,15 +34,36 @@ namespace BuilderPattern.Code
 
             #region FluentBuilder with Recursive
 
-             //var builder = new PersonJobBuilder();
-             //builder.Called("yigit").WorksAsA => we couldn't call,
+            //var builder = new PersonJobBuilder();
+            //builder.Called("yigit").WorksAsA => we couldn't call,
 
-            var person = Person.New.Called("yiğit").WorksAsA("engineer").Build();
+            //var person = Person.New.Called("yiğit").WorksAsA("engineer").Build();
 
-            Console.WriteLine(person);
+            //Console.WriteLine(person);
+
+            #endregion
+
+            #region Facaded_Builder_Pattern
+
+            var userBuilder = new UserBuilder();
+
+            User user = userBuilder
+                .Lives
+                    .At("Muğla")
+                    .WithPhoneNumber("25255")
+                    .WithPostCode("48000")
+                .Works
+                    .At("Com")
+                    .As("engineer")
+                    .Income(1560);
+
+            Console.WriteLine(user);
 
             #endregion
 
         }
     }
 }
+
+
+

@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Builder_Pattern\Director.cs" />
+    <Compile Include="Facaded_Builder_Pattern\UserBuilder.cs" />
+    <Compile Include="Facaded_Builder_Pattern\UserInfoBuilder.cs" />
+    <Compile Include="Facaded_Builder_Pattern\UserWorkInfoBuilder.cs" />
     <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Bad\PersonInfoBuilder.cs" />
     <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Bad\PersonJobBuilder.cs" />
     <Compile Include="Fluent_Builder_Pattern_With_RecursiveGenerics\Good\AbstartPersonBuilder.cs" />
@@ -54,6 +57,7 @@
     <Compile Include="Fluent_Builder_Pattern\Interfaces\IFluentVehicleBuilder.cs" />
     <Compile Include="Builder_Pattern\Interfaces\IVehicleBuilder.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Models\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

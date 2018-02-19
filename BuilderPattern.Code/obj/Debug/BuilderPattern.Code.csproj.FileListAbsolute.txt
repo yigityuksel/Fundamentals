@@ -3,3 +3,4 @@ C:\Users\y.yuksel\Desktop\Fundamentals\BuilderPattern.Code\bin\Debug\BuilderPatt
 C:\Users\y.yuksel\Desktop\Fundamentals\BuilderPattern.Code\bin\Debug\BuilderPattern.Code.pdb
 C:\Users\y.yuksel\Desktop\Fundamentals\BuilderPattern.Code\obj\Debug\BuilderPattern.Code.exe
 C:\Users\y.yuksel\Desktop\Fundamentals\BuilderPattern.Code\obj\Debug\BuilderPattern.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\BuilderPattern.Code\obj\Debug\BuilderPattern.Code.csprojResolveAssemblyReference.cache
