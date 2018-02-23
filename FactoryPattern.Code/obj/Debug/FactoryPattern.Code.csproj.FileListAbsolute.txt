@@ -1,0 +1,6 @@
+C:\Users\y.yuksel\Desktop\Fundamentals\FactoryPattern.Code\bin\Debug\FactoryPattern.Code.exe.config
+C:\Users\y.yuksel\Desktop\Fundamentals\FactoryPattern.Code\bin\Debug\FactoryPattern.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\FactoryPattern.Code\bin\Debug\FactoryPattern.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\FactoryPattern.Code\obj\Debug\FactoryPattern.Code.exe
+C:\Users\y.yuksel\Desktop\Fundamentals\FactoryPattern.Code\obj\Debug\FactoryPattern.Code.pdb
+C:\Users\y.yuksel\Desktop\Fundamentals\FactoryPattern.Code\obj\Debug\FactoryPattern.Code.csprojResolveAssemblyReference.cache

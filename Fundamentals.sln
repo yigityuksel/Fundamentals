@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Crea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern.Code", "BuilderPattern.Code\BuilderPattern.Code.csproj", "{5A7CDEE8-34E4-488F-A760-82F7AEBDFB31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern.Code", "FactoryPattern.Code\FactoryPattern.Code.csproj", "{2420CB56-E301-45C5-9B63-A45DB4075AE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{5A7CDEE8-34E4-488F-A760-82F7AEBDFB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A7CDEE8-34E4-488F-A760-82F7AEBDFB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A7CDEE8-34E4-488F-A760-82F7AEBDFB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2420CB56-E301-45C5-9B63-A45DB4075AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2420CB56-E301-45C5-9B63-A45DB4075AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2420CB56-E301-45C5-9B63-A45DB4075AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2420CB56-E301-45C5-9B63-A45DB4075AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,5 +155,6 @@ Global
 		{DAF0211C-32A9-4FEE-9EBE-2C4AAC9E2209} = {AFBA08B9-253D-44CA-866B-BCD3D18A3AF7}
 		{583930CC-DC70-42A0-B06C-3AA48D44671C} = {797816D6-D336-4E63-B896-2009DCE14BE8}
 		{5A7CDEE8-34E4-488F-A760-82F7AEBDFB31} = {583930CC-DC70-42A0-B06C-3AA48D44671C}
+		{2420CB56-E301-45C5-9B63-A45DB4075AE0} = {583930CC-DC70-42A0-B06C-3AA48D44671C}
 	EndGlobalSection
 EndGlobal
